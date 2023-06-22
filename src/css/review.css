@@ -1,0 +1,152 @@
+.review {
+  padding: 80px 0;
+  background: #F8F8FF;
+}
+.review__top {
+  display: flex;
+  column-gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.review__title {
+  margin-bottom: 52px;
+}
+.review__list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 63px;
+}
+.review__item {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: rgba(48, 53, 196, 0.4392156863);
+  cursor: pointer;
+}
+.review__item span {
+  display: none;
+}
+.review__item_active {
+  color: #E6514A;
+  border-bottom: 3px solid #E6514A;
+  padding-bottom: 20px;
+}
+.review__item_active span {
+  display: inline;
+  color: #E6514A;
+}
+.review__content {
+  display: none;
+}
+.review__content_active {
+  display: block;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(0, 11, 68, 0.22);
+  border-radius: 10px;
+  padding: 48px 52px;
+}
+.review__content-title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 130%;
+  color: #3035C4;
+  margin-bottom: 24px;
+}
+.review__content-description {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #23283B;
+  margin-bottom: 48px;
+}
+.review__content-row {
+  display: flex;
+  column-gap: 60px;
+  width: 100%;
+}
+.review__content-col {
+  width: 33.33333%;
+}
+.review__content-col-title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 130%;
+  color: #23283B;
+  margin-bottom: 24px;
+}
+.review__content-col-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.review__content-col-item {
+  display: flex;
+  column-gap: 16px;
+}
+.review__content-col-item-icon {
+  width: 16px;
+  height: 16px;
+  color: #E6514A;
+}
+.review__content-col-item-title {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 150%;
+  color: #23283B;
+  margin-bottom: 4px;
+}
+.review__content-col-item-descr {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #23283B;
+}
+.review__content-col-elem-text {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #23283B;
+  margin-bottom: 8px;
+}
+.review__content-col-elem-text-percent {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 150%;
+  color: #E6514A;
+}
+.review__content-col-elem-line {
+  width: 100%;
+  height: 4px;
+  background: #DEDEFF;
+  border-radius: 10px;
+  position: relative;
+}
+.review__content-col-elem-line::before {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 30%;
+  height: 4px;
+  background: #E6514A;
+}
+
+/*# sourceMappingURL=review.css.map */

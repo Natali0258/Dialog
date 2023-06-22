@@ -1,0 +1,105 @@
+.programs{
+   padding: 100px 0 80px;
+   &__top{
+      display: flex;
+      column-gap: 12px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+   }
+   &__title{
+      margin-bottom: 52px;
+   }
+   &__row{
+      display: flex;
+      width: 100%;
+      column-gap: 20px;
+   }
+   &__col{
+      width: 25%;
+      text-align: center;
+      &-info{
+         padding: 28px 20px;
+         text-align: center;
+         border: 1px solid #DEDEFF;
+         border-radius: 4px;
+         margin-bottom: 32px;
+      }
+      &-price{
+         height: 65px;
+         font-family: 'Montserrat',sans-serif;
+         font-style: normal;
+         font-weight: 900;
+         font-size: 16px;
+         line-height: 16px;
+         color: #3035C4;
+         margin-bottom: 16px;
+         &-numb{
+         font-family: 'Montserrat',sans-serif;
+         font-style: normal;
+         font-weight: 900;
+         font-size: 40px;
+         line-height: 49px;
+         color: #3035C4;
+         }
+         &_text{
+            font-size: 22px;
+            line-height: 27px;
+         }
+      }
+      &-description{
+         font-family: 'Montserrat',sans-serif;
+         font-style: normal;
+         font-weight: 700;
+         font-size: 16px;
+         line-height: 20px;
+         color: #23283B;
+      }
+      
+      &-list{
+         display: flex;
+         flex-direction: column;
+         text-align: start;
+         row-gap: 12px;
+         height: 162px;
+         margin-bottom: 49px;
+      }
+      &-item{
+         display: flex;
+         column-gap: 16px;
+         &-icon{
+            width: 16px;
+            height: 16px;
+            color: #E6514A;
+         }
+         &-text{
+         font-family: 'Lato',sans-serif;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 150%;
+         color: #23283B;
+         }
+      }
+   }
+   &__button{
+      display: inline-block;
+   }
+   &__link{
+      display: inline-block;
+      margin-top: 20px;
+      &-icon{
+         width: 16px;
+         height: 16px;
+         color: #3035C4;
+      }
+      &-text{
+         font-family: 'Roboto',sans-serif;
+         font-style: normal;
+         font-weight: 900;
+         font-size: 14px;
+         line-height: 16px;
+         color: #3035C4;
+      }
+   }
+}

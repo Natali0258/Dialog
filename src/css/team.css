@@ -1,0 +1,86 @@
+.team {
+  padding: 100px 0 60px;
+  align-items: center;
+}
+.team__top {
+  display: flex;
+  column-gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.team__title {
+  margin-bottom: 52px;
+}
+.team__card {
+  text-align: center;
+}
+.team__card-photo {
+  width: 100%;
+  margin-bottom: 43px;
+}
+.team__card-title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 130%;
+  color: #3035C4;
+  margin-bottom: 32px;
+}
+.team__card-description {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #23283B;
+}
+.team__carousel {
+  margin: 0 auto;
+  width: calc(100% - 200px);
+  position: relative;
+}
+.team__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 56px;
+  height: 56px;
+  background: #FFFFFF !important;
+  box-shadow: 0px 10px 40px rgba(0, 11, 68, 0.22);
+  border-radius: 50% !important;
+  color: #E6514A !important;
+  font-size: 20px !important;
+  font-weight: 900 !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.team__arrow-prev {
+  left: -44px;
+  transform: translateX(-100%);
+}
+.team__arrow-next {
+  right: -44px;
+  transform: translateX(100%);
+}
+.team__arrow:hover {
+  background: #3035C4 !important;
+  color: #FFFFFF !important;
+}
+.team__dot span {
+  background: #DEDEFF !important;
+  transition: 0.5s;
+}
+.team__dot span:hover {
+  background: #3035C4 !important;
+  transition: 0.5s;
+}
+.team__dot.active span {
+  background: #E6514A !important;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=team.css.map */

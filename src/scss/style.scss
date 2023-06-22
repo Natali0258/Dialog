@@ -1,0 +1,45 @@
+@import "../libs/fontello/css/fontello.css";
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing:border-box;
+   text-decoration: none;
+   list-style-type: none;
+   scroll-behavior: smooth; //замедленный переход по ссылке
+}
+.container{
+   width: 100%;
+   max-width: 1170px;
+   margin: 0 auto;
+}
+.line{
+   width: 40px;
+   height: 1px;
+   background: #E6514A;
+}
+.title{
+   font-family: 'Montserrat',sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 48px;
+   line-height: 130%;
+   text-align: center;
+   color: #23283B;
+}
+
+
+//отдельные блоки
+@import "button";
+@import "description";
+
+//секции
+@import "header";
+@import "hero";
+@import "welcome";
+@import "programs";
+@import "review";
+@import "team";
+
+//сложные элементы
+@import "overlay";

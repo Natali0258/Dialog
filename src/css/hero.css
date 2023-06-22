@@ -1,0 +1,27 @@
+.hero {
+  padding: 120px 0 143px;
+  background: url("../images/hero/hero.png") top right/50% 100% no-repeat;
+}
+.hero__description {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3035C4;
+  margin-bottom: 28px;
+}
+.hero__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 130%;
+  color: #23283B;
+  margin-bottom: 52px;
+}
+.hero__title-red {
+  color: #E6514A;
+}
+
+/*# sourceMappingURL=hero.css.map */

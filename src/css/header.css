@@ -1,0 +1,73 @@
+.header {
+  padding: 16px 0;
+}
+.header__top {
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(222, 222, 255, 0.3137254902);
+  display: flex;
+  justify-content: space-between;
+}
+.header__icons {
+  display: flex;
+  column-gap: 22px;
+}
+.header__social {
+  color: black;
+}
+.header__social:hover {
+  color: #E6514A;
+}
+.header__numbers {
+  display: flex;
+  column-gap: 28px;
+}
+.header__numbers-tel {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #23283B;
+}
+.header__numbers-icon {
+  color: #E6514A;
+}
+.header__numbers-icon_green {
+  color: #4CAF50;
+}
+.header__bottom {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__navigation {
+  display: flex;
+  column-gap: 44px;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  column-gap: 32px;
+  align-items: center;
+}
+.header__list {
+  list-style: none;
+}
+.header__link {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #23283B;
+}
+.header__link:hover {
+  color: #3035C4;
+}
+.header__button-phon {
+  transform: rotate(-45deg);
+}
+
+/*# sourceMappingURL=header.css.map */
